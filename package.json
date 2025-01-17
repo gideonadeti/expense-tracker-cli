@@ -1,0 +1,25 @@
+{
+  "name": "wallet-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool for tracking your wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gideonadeti/wallet-cli.git"
+  },
+  "author": "Gideon Adeti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gideonadeti/wallet-cli/issues"
+  },
+  "homepage": "https://github.com/gideonadeti/wallet-cli#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "typescript": "^5.7.3"
+  }
+}
